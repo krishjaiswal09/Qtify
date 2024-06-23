@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
-import Logo from './Logo'; 
-import Search from './Search'; 
-import Button from './Button'; 
+import Logo from '../Logo/Logo'; 
+import Search from '../Search/Search'; 
+import Button from '../Button/Button'; 
 
 function Navbar() {
     return (
@@ -11,7 +11,7 @@ function Navbar() {
             <Link to="/">
                 <Logo />
             </Link>
-            <Search placeholder="Search a song of your choice" />
+            <Search />
             <Button>Give Feedback</Button>
         </nav>
     );

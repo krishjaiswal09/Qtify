@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import HomePage from "./pages/HomePage/HomePage"
-import AlbumPage from "./pages/AlbumPage/AlbumPage"
+// import HomePage from "./pages/HomePage/HomePage"
+// import AlbumPage from "./pages/AlbumPage/AlbumPage"
 import './index.css';
 import App from './App';
 
@@ -10,16 +10,16 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    Children: [
-      {
-        path:"/",
-        element: <HomePage />,
-      },
-      {
-        path:"/album/:albumId",
-        element: <AlbumPage />,
-      }
-    ]
+    // Children: [
+    //   {
+    //     path:"/",
+    //     element: <HomePage />,
+    //   },
+    //   {
+    //     path:"/album/:albumId",
+    //     element: <AlbumPage />,
+    //   }
+    // ]
   }
 ]);
 

@@ -1,14 +1,17 @@
+import React, { useEffect, useState } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import StyledEngineProvider from "@mui/material/StyledEngineProvider"
 
 function App() {
+  const [data, setData] = useState({})
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img />
-        <p></p>
-        <a></a>
-      </header>
-    </div>
-  );
+    <>
+      <StyledEngineProvider injectFirst>
+        <Navbar />
+      </StyledEngineProvider>
+    </>
+  )
 }
 
 export default App;

@@ -1,0 +1,12 @@
+.button{
+    background-color: #000; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    position: fixed; /* Fixed positioning */
+    right: 20px; /* Distance from the right edge */
+    cursor: pointer;
+}
