@@ -12,6 +12,7 @@
     border-bottom-right-radius: 0;
     border: 1px solid var(--color-black);
     width: 500px;
+    
 }
 
 .searchButton {
@@ -19,7 +20,7 @@
     /* padding: 14px 20px; */
     border: 1px solid var(--color-black);
     border-left:  none;
-    height: 65px;
-    margin-top: 10px;
+    height: 62px;
 
 }
+
