@@ -11,7 +11,7 @@ function Search({ children }) {
         //     onSubmit(e, value)
         // }}
       >
-        <input type="text" placeholder="Search" className={styles.search} />
+        <input type="text" placeholder="Search a album of your choice" className={styles.search} />
         <div>
           <button className={styles.searchButton} type="submit">
             <SearchIcon /> {/* Use the SearchIcon component */}
