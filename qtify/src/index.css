@@ -5,3 +5,7 @@
     --color-white: #ffffff;
     
 }
+
+body{
+    background-color: var(--color-black);
+}

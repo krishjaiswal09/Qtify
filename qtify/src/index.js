@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import HomePage from "./pages/HomePage/HomePage"
-// import AlbumPage from "./pages/AlbumPage/AlbumPage"
+import AlbumPage from "./pages/AlbumPage/AlbumPage"
 import './index.css';
 import App from './App';
 
@@ -15,10 +15,10 @@ const router = createBrowserRouter([
         path:"/",
         element: <HomePage />,
       },
-      // {
-      //   path:"/album/:albumId",
-      //   element: <AlbumPage />,
-      // }
+      {
+        path:"/album/:albumId",
+        element: <AlbumPage />,
+      }
     ]
   }
 ]);

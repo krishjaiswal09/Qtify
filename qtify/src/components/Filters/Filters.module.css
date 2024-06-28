@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    background-color: var(--filter-background);
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .tab {
+    color: var(--text-light) !important;
+    min-width: 100px;
+    text-transform: none;
+  }
+  
+  .tab:hover {
+    color: var(--hover-color) !important;
+  }
