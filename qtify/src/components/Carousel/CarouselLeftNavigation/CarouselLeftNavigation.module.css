@@ -1,0 +1,29 @@
+/* .leftNavigation{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: var(--color-white);
+} */
+
+/* CarouselLeftNavigation.module.css */
+.leftNavigation {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .leftNavigation svg {
+    cursor: pointer;
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .leftNavigation svg:hover {
+    transform: scale(1.1);
+  }
+  

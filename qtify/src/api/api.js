@@ -20,15 +20,6 @@ export const fetchNewAlbums = async () => {
     }
 };
 
-export const fetchSlugAlbums = async () => {
-    try {
-        const response = await axios.get(`${BACKEND_ENDPOINT}/albums/slug`);
-        return response.data;
-    } catch (e) {
-        console.error(e);
-    }
-};
-
 export const fetchSongs = async () => {
     try {
         const response = await axios.get(`${BACKEND_ENDPOINT}/songs`);

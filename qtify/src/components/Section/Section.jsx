@@ -68,5 +68,3 @@ export default function Section({ title, data, filterSource, type }) {
     </div>
   );
 }
-
-
